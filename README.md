@@ -4,6 +4,8 @@ This command line tool will hit a pro reference site and download all tables as 
 
 This tool should play nicely with most Pro-Reference sites, except for [http://www.baseball-reference.com/](http://www.baseball-reference.com/), which has not been upgraded.
 
+Here's a link to the project on PyPi: [https://pypi.python.org/pypi/fetchproref/0.0.4](https://pypi.python.org/pypi/fetchproref/0.0.4)
+
 ##Installing
 
 Run this command in the terminal:
