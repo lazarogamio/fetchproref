@@ -4,12 +4,12 @@ from setuptools import setup
 
 setup(
     name='fetchproref',
-    version='0.0.1',
+    version='0.0.4',
     author='Lazaro Gamio',
     author_email='lazaro.gamio@gmail.com',
     url='https://github.com/lazarogamio/fetchproref',
     description='A command-line tool that downloads all table from a Pro Reference site',
-    long_description='See readme at: https://github.com/lazarogamio/datadoc',
+    long_description='See readme at: https://github.com/lazarogamio/fetchproref',
     license='MIT',
     classifiers=[
         'Development Status :: 4 - Beta',
@@ -26,7 +26,7 @@ setup(
     ],
     entry_points = {
         'console_scripts': [
-            'datadoc = datadoc.datadoc:launch_new_instance',
+            'fetchproref = fetchproref.fetchproref:launch_new_instance',
         ],
     },
     install_requires = [
