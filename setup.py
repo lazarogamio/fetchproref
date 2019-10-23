@@ -31,7 +31,7 @@ setup(
     },
     install_requires = [
         'beautifulsoup4==4.5.1',
-        'requests==2.4.3'
+        'requests==2.20.0'
     ]
     # test_suite = 'tests.test_binify',
 )
